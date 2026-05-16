@@ -3,5 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("yo gang")
+	var cool string = "yuhh"
+	if gangcheck(cool) == true {
+		fmt.Println("yo gang")
+	}else{
+		fmt.Println("piss off")
+	}
+}
+
+func gangcheck(cool string) bool {
+	if cool == "yuhh" {
+		return true
+	}
+	return false
 }
